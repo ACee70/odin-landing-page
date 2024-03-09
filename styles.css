@@ -1,0 +1,25 @@
+*{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container{
+    color: white;
+    background-color: #1F2937;
+    font-size: 18px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
