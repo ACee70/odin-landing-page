@@ -23,3 +23,34 @@
     flex-direction: row;
     gap: 15px;
 }
+
+.banner-container{
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.banner-container .header-text{
+    font-size: 48px;
+    font-weight: bolder;
+    width: 400px;
+    height: auto;
+    display: flex;
+
+}
+.banner-container .header-text p{
+    font-size: 18px;
+    font-weight:lighter;
+}
+.banner-container .banner button{
+    display: flex;
+    font-size: 18px;
+    color: white;
+    background-color: #3882F6;
+}
+.banner-container .banner-image{
+    background-color: grey;
+    width: 400px;
+    
+}
