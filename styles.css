@@ -66,7 +66,7 @@
 
 .photo-grid-container {
     background-color: white;
-    padding: 40px;
+    padding: 50px;
     justify-content: center;
 }
 .photo-grid-title h1{
@@ -90,4 +90,30 @@
     border: 2px solid #3882F6;
     width: 200px;
     height: 200px;
+}
+
+.quote-container{
+    color: #1F2937;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding-top: 60px;
+    justify-content: center;
+    width: 1000px;
+
+}
+.quote-author{
+    color: #1F2937;
+    background-color: #E5E7EB;
+    display: flex;
+    font-weight: bolder;
+    justify-content: flex-end;
+    padding-right: 500px;
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
