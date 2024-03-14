@@ -68,11 +68,12 @@
 
 .photo-grid-container {
     background-color: white;
-    padding: 50px;
     justify-content: center;
+    padding-top: 40px;
 }
 .photo-grid-title h1{
     display: flex;
+    padding-bottom: 40px;
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
@@ -80,7 +81,6 @@
 }
 
 .photo-grid-container .photo-grid{
-    padding: 40px;
     flex-direction: row;
     display: flex;
     justify-content: center;
@@ -95,11 +95,32 @@
 }
 
 
+.photo-grid-subtext-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin: auto;
+    width: 1000px;
+}
+
+.photo-subtext p{
+    display: flex;
+    width: 150px;
+    padding-bottom: 70px;
+}
+
+
+
+
 .quote-container{
     color: #1F2937;
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .quote{
     font-size: 36px;
