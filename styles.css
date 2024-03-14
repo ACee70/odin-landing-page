@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: auto;
 }
 
 .header-container{
@@ -14,7 +15,7 @@
     justify-content: center;
 }
 .header{
-    width: 1200px;
+    width: 1500px;
     display: flex;
     justify-content: space-around;
 }
@@ -27,6 +28,7 @@
     flex-direction: row;
     gap: 20px;
 }
+
 
 .banner-container{
     color: white;
@@ -92,6 +94,7 @@
     height: 200px;
 }
 
+
 .quote-container{
     color: #1F2937;
     background-color: #E5E7EB;
@@ -116,4 +119,51 @@
     padding-right: 500px;
     padding-top: 20px;
     padding-bottom: 60px;
+}
+
+
+.sign-up-container{
+    color: white;
+    background-color: #3882F6;
+    display: flex;
+    width: 1600px;
+    padding: 30px;
+    margin: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.sign-up-container .sign-up-text{
+    padding-right: 40px;
+    padding-left: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.sign-up-container .sign-up-button-b{
+    display: flex;
+    width: 200px;
+    justify-content: flex-end;
+}
+.sign-up-button-b button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+
+}
+
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
 }
